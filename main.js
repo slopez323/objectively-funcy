@@ -1,8 +1,33 @@
 // Your code here.
 
+function getFirstName(person) {
+  return person.firstName
+}
 
+function getLastName(person) {
+  return person.lastName
+}
 
+function getFullName(person) {
+  return `${person.firstName} ${person.lastName}`
+}
 
+function setFirstName(person, firstName) {
+  person.firstName = firstName
+  return person
+}
+
+function setAge(person, age) {
+  person.age = age
+  return person
+}
+
+function giveBirthday(person) {
+  if (person.age >= 0){
+    person.age += 1
+  } else person.age = 1
+  return person
+}
 
 // Our code here. Don't touch!
 if (typeof getFirstName === 'undefined') {
