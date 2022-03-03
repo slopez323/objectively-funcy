@@ -14,19 +14,19 @@ function getFullName(person) {
 
 function setFirstName(person, firstName) {
   person.firstName = firstName
-  return person
+  // return person
 }
 
 function setAge(person, age) {
   person.age = age
-  return person
+  // return person
 }
 
 function giveBirthday(person) {
   if (person.age >= 0){
     person.age += 1
   } else person.age = 1
-  return person
+  // return person
 }
 
 function marry(person1, person2) {
